@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loanassist</title>
+    <link rel="shortcut icon" href="./Subtract 1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body oncontextmenu="return false">
+    <!-- NavBar start -->
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div class="container-fluid" style="margin: 4px 30px">
+        <a class="navbar-brand text-white" style="width: 34%" href="#"
+          ><img src="./LA Logo.svg" width="250"
+        /></a>
+
+        <button
+          class="navbar-toggler navbar-toggler-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav w-100 d-flex justify-content-center align-items-center justify-content-lg-between gap-3"
+          >
+            <li
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-4"
+            >
+              <div class="text-white d-flex gap-2">
+                <img src="./Email Icon.png" /><span>info@loanassist.co.in</span>
+              </div>
+              <div class="text-white d-flex gap-2">
+                <img src="./Phone Icon.png" /> <span>+91 88088 88088</span>
+              </div>
+            </li>
+            <li class="nav-item d-flex gap-4">
+              <a
+                class="btn btn-outline-warning rounded-0"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+                href="#"
+                >Contact us</a
+              >
+              <a
+                class="btn btn-warning applyBtn rounded-0"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#applyModal"
+                >Apply now</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navBar end -->
+    <hr style="color: aliceblue" class="m-0" />
+    <!-- Banner and cards start -->
+    <section class="banner-section">
+      <div class="container-fluid mt-3">
+        <div class="main-text">
+          REGAIN YOUR
+          <span style="color: #f4de1b">FINANCIAL FREEDOM AND STABILITY</span>
+        </div>
+        <div class="row cols-4 gap-3 justify-content-center mb-5">
+          <div class="card" style="width: 256px; height: 442px">
+            <div class="card-body d-flex flex-column gap-3">
+              <h4
+                class="card-title fw-bold"
+                style="font-size: 20px; color: #2c689f"
+              >
+                Harassed by Pay day loans
+              </h4>
+              <p class="card-text">
+                Have too many pay day loans and wondering how to come out of the
+                reloan cycle ?
+              </p>
+              <p class="card-text">
+                Get a loan and clear all your high-interest EMIs with a single
+                instalment at a reasonable interest rate.
+              </p>
+              <a
+                href="#"
+                class="btn insideBtn"
+                style="color: #ddc700"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#applyModal"
+                >Apply Now <img src="./arrow-right (1).svg"
+              /></a>
+
+              <div class="overlay">
+                <div style="font-size: 16px" class="fw-bold">
+                  Eligibility & Documents :
+                </div>
+                <hr />
+                <p class="card-text">
+                  If your salary is above 75,000 and reside in Bengaluru or
+                  Mysuru, you are eligible to apply for a personal loan.
+                </p>
+                <br />
+                <ul class="overlayList">
+                  <li>No Collateral</li>
+                  <li>Quick processing</li>
+                  <li>Fixed Rate of Interest</li>
+                  <li>Repayment flexibility</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn hoverBtn rounded-0 insideBtn"
+                  role="button"
+                  style="color: #ddc700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                  >Apply Now <img id="my-img" src="./arrow-right (1).svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 256px; height: 442px">
+            <div class="card-body d-flex flex-column gap-3">
+              <h4
+                class="card-title fw-bold"
+                style="font-size: 20px; color: #2c689f"
+              >
+                Overdue Personal Loans/Credit cards are troubling you ?
+              </h4>
+              <p class="card-text">
+                Often, borrowers miss an EMI due to unforeseen circumstances.
+              </p>
+              <p class="card-text">
+                No worries. Get a quick loan to pay all your outstanding or
+                overdue accounts.
+              </p>
+              <a
+                href="#"
+                class="btn insideBtn"
+                style="color: #ddc700"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#applyModal"
+                >Apply Now <img src="./arrow-right (1).svg"
+              /></a>
+
+              <div class="overlay">
+                <div style="font-size: 16px" class="fw-bold">
+                  Eligibility & Documents :
+                </div>
+                <hr />
+                <p class="card-text">
+                  If your salary is above 75,000 and reside in Bengaluru or
+                  Mysuru, you are eligible to apply for a personal loan.
+                </p>
+                <br />
+                <ul class="overlayList">
+                  <li>No Collateral</li>
+                  <li>Quick processing</li>
+                  <li>Fixed Rate of Interest</li>
+                  <li>Repayment flexibility</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn hoverBtn rounded-0 insideBtn"
+                  role="button"
+                  style="color: #ddc700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                  >Apply Now <img id="my-img" src="./arrow-right (1).svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 256px; height: 442px">
+            <div class="card-body d-flex flex-column gap-3">
+              <h4
+                class="card-title fw-bold"
+                style="font-size: 20px; color: #2c689f"
+              >
+                Bad credit ? We can help
+              </h4>
+              <p class="card-text">
+                Can you get a personal loan with a low score ?
+              </p>
+              <p class="card-text">
+                <b>Answer is No.</b> Removing negative accounts is one of the
+                fastest ways to increase your credit score.
+              </p>
+              <a
+                href="#"
+                class="btn insideBtn"
+                style="color: #ddc700"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#applyModal"
+                >Apply Now <img src="./arrow-right (1).svg"
+              /></a>
+
+              <div class="overlay">
+                <div style="font-size: 16px" class="fw-bold">
+                  Eligibility & Documents :
+                </div>
+                <hr />
+                <p class="card-text">
+                  If your salary is above 75,000 and reside in Bengaluru or
+                  Mysuru, you are eligible to apply for a personal loan.
+                </p>
+                <br />
+                <ul class="overlayList">
+                  <li>No Collateral</li>
+                  <li>Quick processing</li>
+                  <li>Fixed Rate of Interest</li>
+                  <li>Repayment flexibility</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn hoverBtn rounded-0 insideBtn"
+                  role="button"
+                  style="color: #ddc700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                  >Apply Now <img id="my-img" src="./arrow-right (1).svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 256px; height: 442px">
+            <div class="card-body d-flex flex-column gap-3">
+              <h4
+                class="card-title fw-bold"
+                style="font-size: 20px; color: #2c689f"
+              >
+                Loan settlements
+              </h4>
+              <p class="card-text">
+                Unable to pay your EMI’s any longer. Planning to opt for
+                settlements on your overdue loan accounts.
+              </p>
+              <p class="card-text"></p>
+              <a
+                href="#"
+                class="btn insideBtn"
+                style="color: #ddc700"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#applyModal"
+                >Apply Now <img src="./arrow-right (1).svg"
+              /></a>
+
+              <div class="overlay">
+                <div style="font-size: 16px" class="fw-bold">
+                  Eligibility & Documents :
+                </div>
+                <hr />
+                <p class="card-text">
+                  If your salary is above 75,000 and reside in Bengaluru or
+                  Mysuru, you are eligible to apply for a personal loan.
+                </p>
+                <br />
+                <ul class="overlayList">
+                  <li>No Collateral</li>
+                  <li>Quick processing</li>
+                  <li>Fixed Rate of Interest</li>
+                  <li>Repayment flexibility</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn hoverBtn rounded-0 insideBtn"
+                  role="button"
+                  style="color: #ddc700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                  >Apply Now <img id="my-img" src="./arrow-right (1).svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 256px; height: 442px">
+            <div class="card-body d-flex flex-column gap-3">
+              <h4
+                class="card-title fw-bold"
+                style="font-size: 20px; color: #2c689f"
+              >
+                Assist with new Personal loan, Credit card, Housing loan
+              </h4>
+              <p class="card-text">
+                Assist with new Personal loan, Credit card, Housing loan
+              </p>
+              <p class="card-text"></p>
+              <a
+                href="#"
+                class="btn insideBtn"
+                style="color: #ddc700"
+                role="button"
+                data-bs-toggle="modal"
+                data-bs-target="#applyModal"
+                >Apply Now <img src="./arrow-right (1).svg"
+              /></a>
+
+              <div class="overlay">
+                <div style="font-size: 16px; color: #5a5a5a" class="fw-bold">
+                  Eligibility & Documents :
+                </div>
+                <hr />
+                <p class="card-text">
+                  If your salary is above 75,000 and reside in Bengaluru or
+                  Mysuru, you are eligible to apply for a personal loan.
+                </p>
+                <br />
+                <ul class="overlayList">
+                  <li>No Collateral</li>
+                  <li>Quick processing</li>
+                  <li>Fixed Rate of Interest</li>
+                  <li>Repayment flexibility</li>
+                </ul>
+                <a
+                  href="#"
+                  class="btn hoverBtn rounded-0 insideBtn"
+                  role="button"
+                  style="color: #ddc700"
+                  data-bs-toggle="modal"
+                  data-bs-target="#applyModal"
+                  >Apply Now <img id="my-img" src="./arrow-right (1).svg"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./Frame 11450.svg" alt="" srcset="" />
+    </section>
+    <!-- Banner and cards end -->
+
+    <footer>
+      <div class="footer-section">
+        <div
+          class="d-lg-flex justify-content-between align-items-center container text-center"
+        >
+          <div style="font-size: 12px; color: #fff">
+            <img src="./Frame 11250.svg" style="margin-right: 6px" />#30, 2nd
+            Floor, Bannerghatta Main Rd, Opp. Gopalan Innovation Mall, BHCS
+            Layout, Stage 2, BTM 2nd Stage, Bengaluru, Karnataka 560076
+          </div>
+          <div
+            class="d-flex gap-3 justify-content-center align-items-center mt-3 mt-lg-0"
+          >
+            <a href="#" target="_blank"
+              ><img src="./assets/Instagram.png" alt="Instagram"
+            /></a>
+            <a href="#"><img src="./assets/Facebook.png" alt="Instagram" /></a>
+            <a href="#"><img src="./assets/Twitter.png" alt="Instagram" /> </a>
+          </div>
+        </div>
+      </div>
+      <div
+        style="background-color: #000; color: #fff; height: 50px"
+        class="d-flex justify-content-center align-items-center"
+      >
+        <div class="container">
+          ©  2018 DigitalizingIndia. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <!-- Apply now model start -->
+    <div
+      class="modal fade"
+      id="applyModal"
+      tabindex="-1"
+      aria-labelledby="applyModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title w-100 text-center fw-bold"
+              id="applyModalLabel"
+            >
+              Loan Application
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              onclick="resetLoanForm()"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form
+              id="loanApplicationForm"
+              onsubmit="submitLoanApplication(event)"
+            >
+              <div class="row cols-4">
+                <div class="mb-4 col-lg-4">
+                  <label for="fullName" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullNameInput1"
+                    placeholder="Enter your fullname"
+                    required
+                  />
+                </div>
+                <div class="mb-4 col-lg-4">
+                  <label for="mobileNumber" class="form-label"
+                    >Mobile Number</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="mobileNumberInput1"
+                    placeholder="Enter your mobile no."
+                    required
+                  />
+                </div>
+                <div class="mb-4 col-lg-4">
+                  <label for="emailAddress" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="emailAddressInput1"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                </div>
+                <div class="mb-3 col-lg-4">
+                  <label for="monthlySalary" class="form-label"
+                    >Monthly Salary</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="monthlySalaryInput"
+                    placeholder="Enter your monthly salary"
+                    required
+                  />
+                </div>
+                <div class="mb-3 col-lg-4">
+                  <label for="creditScore" class="form-label"
+                    >Credit Score (if known)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="creditScoreInput"
+                    placeholder="Enter your credit score"
+                  />
+                </div>
+                <div class="mb-3 col-lg-4">
+                  <label for="overDue" class="form-label"
+                    >Over Due (if known)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="overDueInput"
+                    placeholder="Enter your overdue"
+                  />
+                </div>
+              </div>
+              <div
+                class="mt-lg-4 d-md-flex justify-content-between align-items-center"
+              >
+                <div style="color: #7c7c7c">
+                  Currently in Bangalore and Mysorer only
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-warning applyBtn rounded-0"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Apply now model end -->
+
+    <!-- Contact us model start  -->
+
+    <div
+      class="modal fade"
+      id="contactModal"
+      tabindex="-1"
+      aria-labelledby="contactModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5
+              class="modal-title w-100 text-center fw-bold"
+              id="contactModalLabel"
+            >
+              Contact Us
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              onclick="resetForm()"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="contactForm" onsubmit="submitForm(event)">
+              <div class="row cols-4">
+                <div class="mb-4 col-lg-4">
+                  <label class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullNameInput"
+                    placeholder="Enter your firstname"
+                    required
+                  />
+                </div>
+                <div class="mb-4 col-lg-4">
+                  <label class="form-label">Mobile Number</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="mobileNumberInput"
+                    placeholder="Enter your mobile no."
+                    required
+                  />
+                </div>
+                <div class="mb-4 col-lg-4">
+                  <label class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="emailAddressInput"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="messageArea"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <div
+                class="mt-lg-4 d-md-flex justify-content-between align-items-center"
+              >
+                <div style="color: #7c7c7c">
+                  Currently in Bangalore and Mysore only
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-warning applyBtn rounded-0"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact us model end -->
+
+    <script>
+      // document.addEventListener("DOMContentLoaded", function () {
+      function submitForm(event) {
+        event.preventDefault();
+
+        if (validateForm()) {
+          // Create data object
+          const formData = getFormData();
+          // Make POST request to the API
+          fetch("http://api.loanassist.co.in/contacts", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Network response was not ok");
+              }
+              return response.json();
+            })
+            .then((data) => {
+              alert(data.message);
+              // Optionally, you can reset the form after successful submission
+              document.getElementById("contactForm").reset();
+            })
+            .catch((error) => {
+              alert(error.error);
+            });
+        }
+      }
+
+      function validateForm() {
+        let fullName = document.getElementById("fullNameInput").value;
+        let mobileNumber = document.getElementById("mobileNumberInput").value;
+        let emailAddress = document.getElementById("emailAddressInput").value;
+        let message = document.getElementById("messageArea").value;
+
+        if (
+          fullName === "" ||
+          mobileNumber === "" ||
+          emailAddress === "" ||
+          message === ""
+        ) {
+          alert("Please fill in all fields");
+          return false;
+        }
+
+        return true;
+      }
+
+      function resetForm() {
+        document.getElementById("contactForm").reset();
+      }
+
+      function getFormData() {
+        let fullName = document.getElementById("fullNameInput").value;
+        let mobileNumber = document.getElementById("mobileNumberInput").value;
+        let emailAddress = document.getElementById("emailAddressInput").value;
+        let message = document.getElementById("messageArea").value;
+
+        return {
+          Fullname: fullName,
+          Contact_Number: mobileNumber,
+          Email: emailAddress,
+          Message: message,
+        };
+      }
+
+      function submitLoanApplication() {
+        event.preventDefault();
+
+        if (validateLoanForm()) {
+          // Create data object
+          const formData = getLoanFormData();
+          // Make POST request to the API
+          fetch("http://api.loanassist.co.in/apply", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData),
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Network response was not ok");
+              }
+              return response.json();
+            })
+            .then((data) => {
+              alert(data.message);
+              // Optionally, you can reset the form after successful submission
+              document.getElementById("loanApplicationForm").reset();
+            })
+            .catch((error) => {
+              alert(error.error);
+            });
+        }
+      }
+
+      function validateLoanForm() {
+        let fullName = document.getElementById("fullNameInput1").value;
+        let mobileNumber = document.getElementById("mobileNumberInput1").value;
+        let emailAddress = document.getElementById("emailAddressInput1").value;
+        let monthlySalary = document.getElementById("monthlySalaryInput").value;
+
+        if (
+          fullName === "" ||
+          mobileNumber === "" ||
+          emailAddress === "" ||
+          monthlySalary === ""
+        ) {
+          alert("Please fill in all required fields");
+          return false;
+        }
+
+        return true;
+      }
+
+      function resetLoanForm() {
+        document.getElementById("loanApplicationForm").reset();
+      }
+
+      function getLoanFormData() {
+        let fullName = document.getElementById("fullNameInput1").value;
+        let mobileNumber = document.getElementById("mobileNumberInput1").value;
+        let emailAddress = document.getElementById("emailAddressInput1").value;
+        let monthlySalary = document.getElementById("monthlySalaryInput").value;
+        let creditScore = document.getElementById("creditScoreInput").value;
+        let overDue = document.getElementById("overDueInput").value;
+
+        return {
+          Fullname: fullName,
+          Contact_Number: mobileNumber,
+          Email: emailAddress,
+          Monthly_Salary: monthlySalary,
+          Credit_Score: creditScore,
+          Over_Due: overDue,
+        };
+      }
+      // });
+    </script>
+  </body>
+</html>
